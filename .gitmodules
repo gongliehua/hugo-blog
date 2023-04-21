@@ -1,0 +1,3 @@
+[submodule "themes/hugo-theme-simple"]
+	path = themes/hugo-theme-simple
+	url = https://github.com/gongliehua/hugo-theme-simple

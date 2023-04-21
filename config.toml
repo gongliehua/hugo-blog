@@ -1,0 +1,26 @@
+baseURL = 'http://gofmt.cn/'
+languageCode = 'en-us'
+title = 'Gofmt.cn'
+theme = 'hugo-theme-simple'
+paginate = 30
+
+disableKinds = ['RSS', 'sitemap']
+uglyURLs = true
+
+[params]
+  description = ''
+  keywords = []
+
+[menu]
+[[menu.main]]
+  name = 'Home'
+  pageRef = '/'
+  weight = 10
+[[menu.main]]
+  name = 'Archives'
+  pageRef = '/archives'
+  weight = 20
+[[menu.main]]
+  name = 'About'
+  pageRef = '/about'
+  weight = 30
